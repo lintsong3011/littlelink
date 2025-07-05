@@ -71,6 +71,11 @@
 	font-size:1.125rem;     				/* 18px */
     font-weight:400;
 	line-height:1.6;
+	background-image: url('/images/20250418_202229.jpg') !important; /* 圖片路徑可自訂 */
+  	background-size: cover;         /* 讓圖片自動填滿畫面 */
+  	background-repeat: no-repeat;   /* 不重複 */
+  	background-position: center;    /* 置中顯示 */
+	background-attachment: fixed; /* 這一行讓背景圖片固定 */
 }
 
 /* Typography
@@ -128,7 +133,7 @@ h1 {
 	color:#FFD5D5;
 	margin:0 0 var(--spacing-m) 0;
 	font-size:var(--scale-4);           /* ~49px */
-  	font-weight:1000;
+  	font-weight:720;
 	line-height:1.1;
 	letter-spacing:-0.02em;
 	word-wrap:break-word;
@@ -137,8 +142,10 @@ h1 {
 body {
 	font-size:var(--scale-1);           /* 20px */
   	line-height:1.6;
+	font-weight:600;
 }
 .container p {
+	color:#FFD5D5;
 	margin:0 0 var(--spacing-xl) 0;
 	font-size:var(--scale-1);
 	line-height:1.6;
