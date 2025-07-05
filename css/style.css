@@ -71,7 +71,7 @@
 	font-size:1.125rem;     				/* 18px */
     font-weight:400;
 	line-height:1.6;
-	background-image: url('/images/20250418_202229.jpg') !important; /* 圖片路徑可自訂 */
+	background-image: url('images/20250418_202229.jpg') !important; /* 圖片路徑可自訂 */
   	background-size: cover;         /* 讓圖片自動填滿畫面 */
   	background-repeat: no-repeat;   /* 不重複 */
   	background-position: center;    /* 置中顯示 */
