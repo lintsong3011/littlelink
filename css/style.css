@@ -131,7 +131,7 @@
 
 /* Typography Scale */
 h1 {
-	color:#f94cb7ae;
+	color:#ffe876;
 	margin:0 0 var(--spacing-xs) 0;
 	font-size:var(--scale-4);           /* ~49px */
   	font-weight:700;
@@ -146,7 +146,7 @@ body {
 	font-weight:600;
 }
 .container p {
-	color:#01010186;
+	color:#010101b3;
 	margin:0 0 var(--spacing-xl) 0;
 	font-size:var(--scale-1);
 	font-weight:610;
