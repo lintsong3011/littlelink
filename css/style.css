@@ -131,10 +131,10 @@
 
 /* Typography Scale */
 h1 {
-	color:#fcb0c6;
-	margin:0 0 var(--spacing-m) 0;
+	color:#f94cb7ae;
+	margin:0 0 var(--spacing-xs) 0;
 	font-size:var(--scale-4);           /* ~49px */
-  	font-weight:720;
+  	font-weight:700;
 	line-height:1.1;
 	letter-spacing:-0.02em;
 	word-wrap:break-word;
@@ -146,7 +146,7 @@ body {
 	font-weight:600;
 }
 .container p {
-	color:#fcb0c6;
+	color:#01010186;
 	margin:0 0 var(--spacing-xl) 0;
 	font-size:var(--scale-1);
 	font-weight:610;
