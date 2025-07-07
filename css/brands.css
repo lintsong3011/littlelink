@@ -567,6 +567,14 @@
 	--button-background:#9146ff;
 }
 
+/* Twitter */
+.button-twitter {
+	--button-text:#ffffff;
+	background: #020024;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+	--button-border:1px solid #FFFFFF;
+}
+
 /* Unsplash */
 .button-unsplash {
 	--button-text:#000000;
@@ -629,7 +637,7 @@
 .button-zoom {
 	--button-text:#ffffff;
 	--button-background:#0B5CFF;
-  --button-border:1px solid #FFFFFF;
+  	--button-border:1px solid #FFFFFF;
 }
 
 .button-globelink {
