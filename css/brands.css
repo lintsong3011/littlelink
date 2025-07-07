@@ -631,3 +631,10 @@
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
 }
+
+.button-globelink {
+	--button-text:#ffffff;
+	background: #e32064;
+	background: linear-gradient(90deg,rgba(227, 32, 100, 1) 0%, rgba(92, 193, 121, 1) 50%, rgba(87, 199, 122, 1) 0%, rgba(232, 237, 83, 1) 100%);
+	--button-border:1px solid #FFFFFF;
+}
