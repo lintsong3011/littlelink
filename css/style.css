@@ -12,18 +12,6 @@
   --text-color: #222;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #181818;
-    --text-color: #e0e0e0;
-  }
-}
-
-body, .your-black-block-class {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
 /* Grid
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .container {
@@ -161,6 +149,7 @@ body {
 	color:#fcb0c6;
 	margin:0 0 var(--spacing-xl) 0;
 	font-size:var(--scale-1);
+	font-weight:610;
 	line-height:1.6;
 }
 
