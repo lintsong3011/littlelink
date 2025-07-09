@@ -41,6 +41,10 @@
     <meta name="color-scheme" content="light dark">
   </head>
 
+<script>  
+  const today = new Date();
+</script>
+
 <body>
 
     <div class="container">
@@ -54,7 +58,7 @@
 
               Be sure to replace the src with your own image path and update the alt text
             -->
-            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar.png 2x" alt="LittleLink">
+            <img class="avatar avatar--rounded" src="images/avatar.png" alt="LittleLink">
 
             <!-- Replace with your name or brand -->
             <h1>
@@ -112,8 +116,8 @@
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
-        Built with <a href="https://github.com/sethcottle/littlelink/?utm_source=littlelink/" target="_blank" rel="noopener">LittleLink</a>
-        <br>2025 Created by TSONGㄉㄉ
+        &copy; <script>document.write(today.getFullYear())</script>  TSONGㄉㄉ
+        <br>Built with <a href="https://github.com/sethcottle/littlelink/?utm_source=littlelink/" target="_blank" rel="noopener">LittleLink</a>
       </footer>
 
     </div>
