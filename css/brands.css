@@ -104,6 +104,14 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* Blog */
+.button-blog {
+	--button-text:#ffffff;
+	background: #0B486B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /* Bluesky */
 .button-bluesky {
 	--button-text:#FFFFFF;
@@ -182,6 +190,16 @@
 	--button-background:#F45800;
 }
 
+/* email */
+.button-email {
+	--button-text:#ffffff;
+	background: #004FF9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
 /* Facebook */
 .button-faceb {
 	--button-text:#ffffff;
@@ -211,14 +229,14 @@
 .button-flickr {
 	--button-text:#ffffff;
 	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
+
 }
 
 /* GitHub */
 .button-github {
 	--button-text:#ffffff;
 	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
+
 }
 
 /* GitLab */
@@ -417,7 +435,6 @@
 .button-pinterest {
 	--button-text:#000000;
 	--button-background:#ffffff;
-	--button-border:1px solid #212121;
 }
 
 /* Product Hunt */
@@ -481,7 +498,6 @@
 .button-spotify-alt {
 	--button-text:#FFFFFF;
 	--button-background:#191414;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* Square */
@@ -507,7 +523,6 @@
 .button-steam-alt {
 	--button-text:#ffffff;
 	background-image:linear-gradient(90deg,#09172a,#072a57,#0c5085);
-	--button-border:1px solid #FFFFFF;
 }
 
 /* Strava */
@@ -532,7 +547,6 @@
 .button-threads {
 	--button-text:#FFFFFF;
 	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* Threema */
@@ -572,7 +586,6 @@
 	--button-text:#ffffff;
 	background: #020024;
 	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-	--button-border:1px solid #FFFFFF;
 }
 
 /* Unsplash */
@@ -624,7 +637,6 @@
 .button-yt {
 	--button-text:#ffffff;
 	--button-background:#282828;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* YouTube Alt */
@@ -644,5 +656,5 @@
 	--button-text:#ffffff;
 	background: #e32064;
 	background: linear-gradient(90deg,rgba(227, 32, 100, 1) 0%, rgba(92, 193, 121, 1) 50%, rgba(87, 199, 122, 1) 0%, rgba(232, 237, 83, 1) 100%);
-	--button-border:1px solid #FFFFFF;
+
 }
