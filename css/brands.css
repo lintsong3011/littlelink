@@ -364,7 +364,7 @@
 	background: -moz-linear-gradient(47deg, rgba(196, 107, 255, 1) 0%, rgba(29, 115, 253, 1) 50%, rgba(69, 252, 249, 1) 100%);
 	background: linear-gradient(47deg, rgba(196, 107, 255, 1) 0%, rgba(29, 115, 253, 1) 50%, rgba(69, 252, 249, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#C46BFF", endColorstr="#45FCF9", GradientType=0);
-} 
+}
 
 /* Matrix */
 .button-matrix {
