@@ -61,11 +61,8 @@
 }
 }
 
-@import url("https://font.emtech.cc/css/GlowSansJPCon");
+@import url("https://font.emtech.cc/css/ProperScript");
 
-head {
-  font-family: "GlowSansJPCon", sans-serif;
-}
 /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   body {
@@ -73,7 +70,7 @@ head {
 	padding:0;
 	background-color:#ffffff;
 	color:#1a1a1a;
-	font-family: "GlowSansJPCon", sans-serif;
+	font-family: "ProperScript", sans-serif;
 	font-size:1.125rem;     				/* 18px */
     font-weight:400;
 	line-height:1.6;
@@ -136,7 +133,7 @@ head {
 
 /* Typography Scale */
 h1 {
-	color:#ffe876;
+	color:#ff7676;
 	margin:0 0 var(--spacing-xs) 0;
 	font-size:var(--scale-4);           /* ~49px */
   	font-weight:700;
@@ -144,18 +141,23 @@ h1 {
 	letter-spacing:-0.02em;
 	word-wrap:break-word;
 	overflow-wrap:break-word;
+	text-shadow: 0 0 2px #000000, 0 0 2px #000000, 
+             	0 0 2px #000000, 0 0 2px #000000;
 }
+
 body {
 	font-size:var(--scale-1);           /* 20px */
   	line-height:1.6;
 	font-weight:600;
 }
 .container p {
-	color:#010101b3;
+	color:#ffffffb3;
 	margin:0 0 var(--spacing-xl) 0;
 	font-size:var(--scale-1);
 	font-weight:610;
 	line-height:1.6;
+	text-shadow: 0 0 2px #000000, 0 0 2px #000000, 
+				0 0 2px #000000, 0 0 2px #000000;
 }
 
 /* Container spacing */
